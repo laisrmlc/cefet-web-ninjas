@@ -1,0 +1,60 @@
+	#logomarca{
+		width: 200px;
+		display: block;
+		margin: 0 auto;
+	}
+	img,iframe{
+		display: block;
+		margin: 0 auto;	
+	}
+	h1,h2{
+		font-family: "Courier New";
+		color: red;
+		text-align: center;
+	}
+	
+	a:link{
+		color: red;
+		text-decoration: bold;
+		font-family: "Courier New"; 
+	}/*- um link que nunca foi visitado*/
+	a:visited{
+		color: blue;
+		text-decoration: bold;
+		font-family: "Courier New"; 
+	}/* - um link que o usuário já visitou*/
+	a:hover{
+		color: green;
+		text-decoration: bold;
+		font-size: 22px;
+		font-family: "Courier New"; 
+	} /*- um link quando o mouse está em cima dele*/	
+	a:active{
+		color: black;
+		text-decoration: bold;
+		font-family: "Courier New"; 
+	}/*- um link no momento em que é "clicado"*/
+	a[href*="http"] {
+		background-image: url(img/globo.png);
+		background-repeat: no-repeat;
+		padding-left: 17px;
+	}
+	#nota{
+		color: gray;
+		font-size: 15px;
+	}
+	strong{
+		background-color: gray;
+		font-size: 40px;
+		color: red;
+	}
+	em{
+		font-size: 30px;
+	}
+	p{
+		color: black;
+		font-family: "Courier New";
+	}
+	body{
+		background-color: #F5DEB3;
+	}
